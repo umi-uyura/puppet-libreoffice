@@ -14,6 +14,9 @@ include libreoffice::languagepack
 class { 'libreoffice::languagepack':
   locale => 'de'
 }
+
+## for japanese
+include libreoffice::languagepack::ja
 ```
 
 ## Required Puppet Modules
